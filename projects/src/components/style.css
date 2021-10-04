@@ -1,0 +1,90 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background-color: beige;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.App{
+    height: 700px;
+    width: 540px;
+    background-color: bisque;
+    margin-top: 20%;
+    
+}
+.balance{
+    color: grey;
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    text-transform: uppercase;
+}
+.detail{
+    background-color: white;
+    height: 110px;
+    width: 370px;
+    display: flex;
+    margin-top: 4%;
+    margin-left: 16%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.middle{
+    border-right: 2px solid rgb(221, 216, 216);
+    height: 70px;
+}
+.income,.expense{
+    text-transform: uppercase;
+    color: grey;
+}
+.income span,.expense span{
+    margin-left : 30px;
+
+}
+
+.red{
+    border-right: 4px solid red;
+  
+}
+.green{
+    border-right: 4px solid green;
+    
+}
+.li {
+    display:flex;
+    justify-content: space-between;
+    list-style-type:none;
+    background-color: white;
+    width: 80%;
+   text-transform: capitalize;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+  
+    padding: 10px 25px;
+}
+input{
+    width: 88%;
+    border:none;
+    outline:none;
+    padding: 14px 20px ;
+    margin-bottom: 17px;
+    margin-left: 2%;
+    text-transform: uppercase;
+}
+.btn{
+    width: 88%;
+    border:none;
+    outline:none;
+    padding: 14px 20px ;
+    margin-bottom: 17px;
+    margin-left: 4%;
+    text-transform: uppercase;
+    background-color: rgb(141, 30, 221);
+    color: white;
+    font-weight: 700;
+}
